@@ -1,0 +1,8 @@
+[package]
+name = "test_peer_cred"
+version = "0.1.0"
+authors = ["Martin Habovštiak <martin.habovstiak@gmail.com>"]
+
+[dependencies]
+tokio-core = "0.1"
+tokio-uds = { git = "https://github.com/Kixunil/tokio-uds", branch = "ucred" }
